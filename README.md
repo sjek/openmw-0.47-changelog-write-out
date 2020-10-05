@@ -1,0 +1,1 @@
+# openmw-0.47-changelog-write-out
