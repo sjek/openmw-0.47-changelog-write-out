@@ -1,6 +1,7 @@
 # openmw-0.47-changelog-write-out
 
-to set this up i have used following procedure 
+to set this up i have used following procedure
+
 if you are cloning and adding unto this repository, you can skip 3, 4 and 5
 
 1) install sphinx and it's reguirements
@@ -33,4 +34,8 @@ if you are cloning and adding unto this repository, you can skip 3, 4 and 5
 
         html_theme = 'sphinx_rtd_theme'
 
-6) 
+6) for formatting, there's quicstart guide in 
+
+        https://www.sphinx-doc.org/en/master/usage/quickstart.html
+   
+   
