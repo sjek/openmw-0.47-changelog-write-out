@@ -4,11 +4,11 @@ the documentation build from this source resides in
 
   https://openmw-047-changelog-write-out.readthedocs.io/en/latest/
   
-- for contributing you need a clone (2) and make a pull request (7)
+for contributing you need a clone (2) and make a pull request (7)
 
-- if you are cloning and adding unto this repository, you can skip 3, 4 and 5
+if you are cloning and adding unto this repository, you can skip 3, 4 and 5
 
-- 1 is needed if you want to build html documentation locally:  
+1 is needed if you want to build html documentation locally:  
 
 ```
 ( by writing cmd in address field, hit enter and using "make html" command.
@@ -19,7 +19,7 @@ for keeping this repository simple, don't commit those files into here. )
 
 1) install sphinx and it's reguirements
 
-2) install git gui for windows for cloning (there are other ways but i used this)
+- 2) install git gui for windows for cloning (there are other ways but i used this)
 
 ```
 this is kinda self explanatory, go to the desired folder, 
@@ -63,7 +63,7 @@ that's it, now you have a clone which can be used to contribute
 
      https://www.sphinx-doc.org/en/master/usage/quickstart.html
 
-7) for making a pull request you need first a clone of this one.
+- 7) for making a pull request you need first a clone of this one.
 
 ```
     not sure yet how it works from forked repository but i need different branch
