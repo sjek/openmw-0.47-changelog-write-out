@@ -6,7 +6,7 @@ to set this up i have used following procedure
 
 2) install git gui for windows
 
-3) creating this prepository and cloning it
+3) creating this prepository
 
 4) opening cmd in root directory and executing sphinx-quickstart
 
