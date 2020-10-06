@@ -1,6 +1,7 @@
 # openmw-0.47-changelog-write-out
 
-to set this up i have used following procedure
+to set this up i have used following procedure 
+if you are cloning and adding unto this repository, you can skip 3, 4 and 5
 
 1) install sphinx and it's reguirements
 
@@ -8,9 +9,9 @@ to set this up i have used following procedure
 
 3) creating this prepository
 
-4) opening cmd in root directory and executing sphinx-quickstart
+4) after cloning, opening cmd in root directory and executing sphinx-quickstart
 
-5)  then in created conf.py i added
+5)  then in created conf.py i added onto extensions
 
         'sphinx.ext.autodoc',
         'sphinx.ext.doctest',
@@ -19,7 +20,7 @@ to set this up i have used following procedure
         'sphinx.ext.viewcode',
         'sphinx.ext.autosectionlabel',
 
-    onto extensions and under them
+    and under them
 
         autosectionlabel_prefix_document = True
 
@@ -31,3 +32,5 @@ to set this up i have used following procedure
     as html theme using
 
         html_theme = 'sphinx_rtd_theme'
+
+6) 
