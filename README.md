@@ -56,10 +56,9 @@ for keeping this repository simple, don't commit those files into here. )
 
 7) for making a pull request you need first a clone of this one.
 
+```
     not sure yet how it works from forked repository but i need different branch
-
     from default one to get my ide ie. atom to work well. then using that different
-
     branch as a base for new commits which of i then make a pull request for default branch.
-
     that pull request i then merge to make it go to readthedocs build process and the document.
+```
