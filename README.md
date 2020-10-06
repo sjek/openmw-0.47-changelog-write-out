@@ -29,6 +29,7 @@ for keeping this repository simple, don't commit those files into here. )
 
 5)  then in created conf.py i added onto extensions
 
+```
         'sphinx.ext.autodoc',
         'sphinx.ext.doctest',
         'sphinx.ext.todo',
@@ -48,6 +49,8 @@ for keeping this repository simple, don't commit those files into here. )
     as html theme using
 
         html_theme = 'sphinx_rtd_theme'
+        
+```
 
 6) for formatting, there's quickstart guide in
 
