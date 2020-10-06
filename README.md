@@ -4,15 +4,13 @@ the documentation build from this source resides in
 
   https://openmw-047-changelog-write-out.readthedocs.io/en/latest/
   
-for contributing you need a clone (2)
+- for contributing you need a clone (2) and make a pull request (7)
 
-setting this up i have used following procedure
+- setting this up i have used following procedure
 
-if you are cloning and adding unto this repository, you can skip 3, 4 and 5
+- if you are cloning and adding unto this repository, you can skip 3, 4 and 5
 
-
-
-1 is needed if you want to build html documentation locally:  
+- 1 is needed if you want to build html documentation locally:  
 
 ```
 ( by writing cmd in address field, hit enter and using "make html" command.
