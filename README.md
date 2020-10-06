@@ -2,32 +2,40 @@
 
 to set this up i have used following procedure
 
-install sphinx and it's reguirements
+if you are cloning and adding unto this repository, you can skip 3, 4 and 5
 
-install git gui for windows
+1) install sphinx and it's reguirements
 
-creating this prepository and cloning it
+2) install git gui for windows
 
-opening cmd in root directory and executing sphinx-quickstart
+3) creating this prepository
 
-then in created conf.py i added
+4) after cloning, opening cmd in root directory and executing sphinx-quickstart
 
-    'sphinx.ext.autodoc',
-    'sphinx.ext.doctest',
-    'sphinx.ext.todo',
-    'sphinx.ext.coverage',
-    'sphinx.ext.viewcode',
-    'sphinx.ext.autosectionlabel',
+5)  then in created conf.py i added onto extensions
 
-onto extensions and under them
+        'sphinx.ext.autodoc',
+        'sphinx.ext.doctest',
+        'sphinx.ext.todo',
+        'sphinx.ext.coverage',
+        'sphinx.ext.viewcode',
+        'sphinx.ext.autosectionlabel',
 
-    autosectionlabel_prefix_document = True
+    and under them
 
-then under "templates_path = ['_templates']"
+        autosectionlabel_prefix_document = True
 
-    # The master toctree document.
-    master_doc = 'index'
+    then under "templates_path = ['_templates']"
 
-as html theme using
+        # The master toctree document.
+        master_doc = 'index'
 
-    html_theme = 'sphinx_rtd_theme'
+    as html theme using
+
+        html_theme = 'sphinx_rtd_theme'
+
+6) for formatting, there's quicstart guide in 
+
+        https://www.sphinx-doc.org/en/master/usage/quickstart.html
+   
+   
