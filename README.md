@@ -2,32 +2,32 @@
 
 to set this up i have used following procedure
 
-install sphinx and it's reguirements
+1) install sphinx and it's reguirements
 
-install git gui for windows
+2) install git gui for windows
 
-creating this prepository and cloning it
+3) creating this prepository and cloning it
 
-opening cmd in root directory and executing sphinx-quickstart
+4) opening cmd in root directory and executing sphinx-quickstart
 
-then in created conf.py i added
+5)  then in created conf.py i added
 
-    'sphinx.ext.autodoc',
-    'sphinx.ext.doctest',
-    'sphinx.ext.todo',
-    'sphinx.ext.coverage',
-    'sphinx.ext.viewcode',
-    'sphinx.ext.autosectionlabel',
+        'sphinx.ext.autodoc',
+        'sphinx.ext.doctest',
+        'sphinx.ext.todo',
+        'sphinx.ext.coverage',
+        'sphinx.ext.viewcode',
+        'sphinx.ext.autosectionlabel',
 
-onto extensions and under them
+    onto extensions and under them
 
-    autosectionlabel_prefix_document = True
+        autosectionlabel_prefix_document = True
 
-then under "templates_path = ['_templates']"
+    then under "templates_path = ['_templates']"
 
-    # The master toctree document.
-    master_doc = 'index'
+        # The master toctree document.
+        master_doc = 'index'
 
-as html theme using
+    as html theme using
 
-    html_theme = 'sphinx_rtd_theme'
+        html_theme = 'sphinx_rtd_theme'
