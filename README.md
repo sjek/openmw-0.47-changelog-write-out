@@ -51,8 +51,7 @@ for keeping this repository simple, don't commit those files into here. )
 
 6) for formatting, there's quickstart guide in
 
-        https://www.sphinx-doc.org/en/master/usage/quickstart.html
-
+     https://www.sphinx-doc.org/en/master/usage/quickstart.html
 
 7) for making a pull request you need first a clone of this one.
 
