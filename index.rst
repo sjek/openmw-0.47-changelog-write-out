@@ -3,7 +3,9 @@
 Welcome to openmw-0.47-changelog-write-out's documentation!
 #######################
 
-.. note:: this documentation is meant to explain changes in 0.47 release and the ways to test said changes
+.. note:: this documentation is meant to explain changes in 0.47 release and the ways to test said changes.
+
+.. tip:: there's guide readme in https://github.com/sjek/openmw-0.47-changelog-write-out
 
 .. toctree::
    :maxdepth: 2
