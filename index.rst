@@ -9,12 +9,13 @@ Welcome to openmw-0.47-changelog-write-out's documentation!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: Listed changes
+
+   Listed changes/index
 
 
 
-Indices and tables
-==================
+Indices and tables:
 
 * :ref:`genindex`
 * :ref:`modindex`
