@@ -1,4 +1,4 @@
-# openmw-0.47-changelog-write-out
+# readme - contributing guide
 
 the documentation build from this source resides in
 
