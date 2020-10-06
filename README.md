@@ -24,8 +24,8 @@ for keeping this repository simple, don't commit those files into here. )
 ```
 this is kinda self explanatory, go to the desired folder, 
 open git gui via dropdown menu, choose cloning, 
-give source address from github page (green "code" dropdown) and
-desired source folder name
+give source address from github page (green "code" dropdown)
+and desired source folder name
 clone
 that's it, now you have a clone which can be used to contribute
 ```
