@@ -3,8 +3,10 @@
 the documentation build from this source resides in
 
   https://openmw-047-changelog-write-out.readthedocs.io/en/latest/
+  
+for contributing you need a clone (2)
 
-to set this up i have used following procedure
+setting this up i have used following procedure
 
 if you are cloning and adding unto this repository, you can skip 3, 4 and 5
 
@@ -21,7 +23,16 @@ for keeping this repository simple, don't commit those files into here. )
 
 1) install sphinx and it's reguirements
 
-2) install git gui for windows
+2) install git gui for windows for cloning (there are other ways but i used this)
+
+```
+this is kinda self explanatory, go to the desired folder, 
+open git gui via dropdown menu, choose cloning, 
+give source address from github page (green "code" dropdown) and
+desired source folder name
+clone
+that's it, now you have a clone which can be used to contribute
+```
 
 3) creating this prepository
 
