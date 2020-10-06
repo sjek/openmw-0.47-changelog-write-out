@@ -34,7 +34,7 @@ that's it, now you have a clone which can be used to contribute
 
 4) after cloning to computer, opening cmd in root directory and executing sphinx-quickstart
 
-5)  then in created conf.py i added onto extensions
+5)  then in created conf.py i added (to get this practigally work) onto extensions
 
 ```
         'sphinx.ext.autodoc',
@@ -53,7 +53,7 @@ that's it, now you have a clone which can be used to contribute
         # The master toctree document.
         master_doc = 'index'
 
-    as html theme using
+    as an html theme using
 
         html_theme = 'sphinx_rtd_theme'
         
