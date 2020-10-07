@@ -3,14 +3,13 @@
 Welcome to openmw-0.47-changelog-write-out's documentation!
 #######################
 
-.. note:: this documentation is meant to explain changes in 0.47 release and the ways to test said changes.
-
 .. note::
-   This changelog is based upon one on github for `0.47 master branch <https://github.com/OpenMW/openmw>`_
+   This documentation is meant to explain changes in 0.47 release and the ways to test said changes.
+   And is based upon changelog on github for `master branch <https://github.com/OpenMW/openmw>`_
    found in
-   https://github.com/OpenMW/openmw/blob/master/CHANGELOG.md . collected 24.8.2020
+   https://github.com/OpenMW/openmw/blob/master/CHANGELOG.md . From which this has been updated on 24.8.2020
 
-.. tip:: there's guide readme in https://github.com/sjek/openmw-0.47-changelog-write-out
+.. tip:: there's contributing readme in https://github.com/sjek/openmw-0.47-changelog-write-out
 
 .. toctree::
    :maxdepth: 2
