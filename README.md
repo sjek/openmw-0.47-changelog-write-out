@@ -63,6 +63,8 @@ that's it, now you have a clone which can be used to contribute
 6) for formatting, there's quickstart guide in
 
      https://www.sphinx-doc.org/en/master/usage/quickstart.html
+     https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html
+     https://bashtage.github.io/sphinx-material/rst-cheatsheet/rst-cheatsheet.html
 
 7) for making a pull request you need first a clone of this one.
 
