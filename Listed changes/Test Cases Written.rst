@@ -2,23 +2,81 @@
 Test Cases Written
 #######################
 
+.. <https://gitlab.com/OpenMW/openmw/-/issues/>`_
 
 
-  `Bug #4774: <https://gitlab.com/OpenMW/openmw/-/issues/4774>`_ `Guards are ignorant of an invisible player that tries to attack them`
+|   `Bug #4021: <https://gitlab.com/OpenMW/openmw/-/issues/4021>`_ **Attributes and skills are not stored as floats**
 
-      There's now a check to
+        
 
-  `Bug #5108: <https://gitlab.com/OpenMW/openmw/-/issues/5108>`_ `Savegame bloating due to inefficient fog textures format`
+          Test: (tested by:                      )
 
-      Fog texture was changed
+|   `Bug #4055: <https://gitlab.com/OpenMW/openmw/-/issues/4055>`_ **Local scripts don't inherit variables from their base record**
 
-  `Bug #5165: <https://gitlab.com/OpenMW/openmw/-/issues/5165>`_ `Active spells should use real time instead of timestamps`
 
-      Active spells will act based on real time instead of time used in game ie. resting
 
-  `Bug #5363: <https://gitlab.com/OpenMW/openmw/-/issues/5363>`_ `Enchantment autocalc not always 0/1`
+          Test: (tested by:                      )
 
-      Enchantments no longer 
+|   `Bug #4623: <https://gitlab.com/OpenMW/openmw/-/issues/4623>`_ **Corprus implementation is incorrect**
+
+
+
+          Test: (tested by:                      )
+
+|   `Bug #4764: <https://gitlab.com/OpenMW/openmw/-/issues/4764>`_ **Data race in osg ParticleSystem**
+
+
+
+          Test: (tested by:                      )
+
+-------------------------------------------------------------
+
+  `Bug #4774: <https://gitlab.com/OpenMW/openmw/-/issues/4774>`_ **Guards are ignorant of an invisible player that tries to attack them**
+
+      Guards now do LOS check and doesn't witch during AI pursue
+
+          Test: (tested by:                      )
+              Try to attack guards while invisible or with chameleon effect higher than 80% ?
+
+seealso ::
+        | bugs `4920 Combat AI uses incorrect invisibility check <https://gitlab.com/OpenMW/openmw/-/issues/4920>`_
+        | and `5575 Guards don't pursue the player if they don't have direct line of sight <https://gitlab.com/OpenMW/openmw/-/issues/5575>`_
+        |
+        | related pulls are
+        | `2988 AIPursue: don't do a LOS check <https://github.com/OpenMW/openmw/pull/2988>`_
+        | `2351 AI: use a consistent check if a target is hidden <https://github.com/OpenMW/openmw/pull/2351>`_
+
+-------------------------------------------------------------
+
+  `Bug #5108: <https://gitlab.com/OpenMW/openmw/-/issues/5108>`_ **Savegame bloating due to inefficient fog textures format**
+
+      Fog of war storing texture was changed to PNG from TGA due to savefile size concerns
+
+          Test: (tested by:                      )
+              No really righforward way to test than
+              comparing two wide area? play sessions together in 0.46 and 0.47
+
+-------------------------------------------------------------
+
+  `Bug #5165: <https://gitlab.com/OpenMW/openmw/-/issues/5165>`_ **Active spells should use real time instead of timestamps**
+
+      Active spells duration will act based on real time instead of the time used in game ie. resting and timescale.
+      Old saves from 0.46 will have their spell durations refreshed to max due to code simplicity.
+
+          Test: (tested by:                      )
+              If you cast let say, fireshield onto yourself it now lasts said seconds in real time.
+
+-------------------------------------------------------------
+
+  `Bug #5363: <https://gitlab.com/OpenMW/openmw/-/issues/5363>`_ **Enchantment autocalc not always 0/1**
+
+      Enchantments "auto calc" field now treats values other than 0 or 1 as invalid.
+
+          Test: (tested by:                      )
+              Needs corrupted auto calc field value
+
+-------------------------------------------------------------
+
 
 
 ***********************
