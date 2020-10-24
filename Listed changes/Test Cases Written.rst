@@ -4,26 +4,39 @@ Test Cases Written
 
 .. <https://gitlab.com/OpenMW/openmw/-/issues/>`_
 
+-------------------------------------------------------------
 
-|   `Bug #4021: <https://gitlab.com/OpenMW/openmw/-/issues/4021>`_ **Attributes and skills are not stored as floats**
+   `Bug #4021: <https://gitlab.com/OpenMW/openmw/-/issues/4021>`_ **Attributes and skills are not stored as floats**
 
-        
+      Attributes and skills now accept float values ie 0.1, 0.2, 0.135238 etc. unsure if vanilla behaviour always rounding up is replicated.
+
+          Test: (tested by:                      )
+              You can use script functions in script or console to check what happens.
+
+-------------------------------------------------------------
+
+   `Bug #4055: <https://gitlab.com/OpenMW/openmw/-/issues/4055>`_ **Local scripts don't inherit variables from their base record**
+
+      it should now be possible to spawn object that inherits variables from base record.
+
+          Test: (tested by:                      )
+              make scripted changes to unique base record and observe the changes in duplicate ?
+
+    seealso::
+            feature `2798: Mutable ESM records <https://gitlab.com/OpenMW/openmw/-/issues/2798>`_ and
+
+
+-------------------------------------------------------------
+
+   `Bug #4623: <https://gitlab.com/OpenMW/openmw/-/issues/4623>`_ **Corprus implementation is incorrect**
+
+
 
           Test: (tested by:                      )
 
-|   `Bug #4055: <https://gitlab.com/OpenMW/openmw/-/issues/4055>`_ **Local scripts don't inherit variables from their base record**
+-------------------------------------------------------------
 
-
-
-          Test: (tested by:                      )
-
-|   `Bug #4623: <https://gitlab.com/OpenMW/openmw/-/issues/4623>`_ **Corprus implementation is incorrect**
-
-
-
-          Test: (tested by:                      )
-
-|   `Bug #4764: <https://gitlab.com/OpenMW/openmw/-/issues/4764>`_ **Data race in osg ParticleSystem**
+   `Bug #4764: <https://gitlab.com/OpenMW/openmw/-/issues/4764>`_ **Data race in osg ParticleSystem**
 
 
 
@@ -38,13 +51,13 @@ Test Cases Written
           Test: (tested by:                      )
               Try to attack guards while invisible or with chameleon effect higher than 80% ?
 
-seealso ::
-        | bugs `4920 Combat AI uses incorrect invisibility check <https://gitlab.com/OpenMW/openmw/-/issues/4920>`_
-        | and `5575 Guards don't pursue the player if they don't have direct line of sight <https://gitlab.com/OpenMW/openmw/-/issues/5575>`_
-        |
-        | related pulls are
-        | `2988 AIPursue: don't do a LOS check <https://github.com/OpenMW/openmw/pull/2988>`_
-        | `2351 AI: use a consistent check if a target is hidden <https://github.com/OpenMW/openmw/pull/2351>`_
+    seealso ::
+            | bugs `4920: Combat AI uses incorrect invisibility check <https://gitlab.com/OpenMW/openmw/-/issues/4920>`_
+            | and `5575: Guards don't pursue the player if they don't have direct line of sight <https://gitlab.com/OpenMW/openmw/-/issues/5575>`_
+            |
+            | related pulls are
+            | `2988: AIPursue: don't do a LOS check <https://github.com/OpenMW/openmw/pull/2988>`_
+            | `2351: AI: use a consistent check if a target is hidden <https://github.com/OpenMW/openmw/pull/2351>`_
 
 -------------------------------------------------------------
 
